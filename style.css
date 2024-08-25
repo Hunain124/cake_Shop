@@ -269,3 +269,329 @@ p {
     margin-top: -80px;
     border-radius: 0 5px 5px 0;
 }
+.our-team{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+}
+.our-team .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-team .top .left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 80px;
+}
+.our-team .top .right{
+    display: flex;
+    padding: 20px;
+    width: 15%;
+    height: 50%;
+    
+}
+.our-team .top .right button{
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    background-color: #ff6f47;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+.our-team .top .right button:hover {
+background-color: #ff4a21;
+}
+.our-team .top .left h3{
+    color: #F08632;
+}
+.our-team .top .left h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 46px;
+    font-weight: 700px;
+}
+.our-team .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    position: relative;
+}
+.our-team .bottom .team{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.our-team .bottom .details{
+    position: absolute;
+    width: 20.7%;
+    bottom: 0px;
+    display: none;
+}
+.our-team .bottom .details p{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white ;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.our-team .bottom .team:hover .details{
+    display: block;
+}
+.our-team .bottom .team .social{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 20px;
+}
+.testimonial {
+    text-align: center;
+    background-color: #fdf0e6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.testimonial h2 {
+    color: #ff7a00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.testimonial h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 45%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.testimonial-item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial-item h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.testimonial-item .location {
+    color: gray;
+    font-size: 14px;
+}
+
+.testimonial-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.stars {
+    color: gold;
+    font-size: 16px;
+}
+.moments {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.moments-text {
+    max-width: 40%;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.moments-text h3 {
+    color: #ff7a00;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.moments-text h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 46px;
+    font-weight: 700px;
+}
+
+.instagram-handle {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instagram-handle img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.instagram-handle p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moments-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 55%;
+}
+
+.moments-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.working-hours h4,
+.logo-section h4,
+.subscribe h4 {
+    font-size: 18px;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+.working-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    /* align-items: center; */
+}
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+    /* width: 50%; */
+}
+
+.logo-section .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo-section .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-section .social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subscribe-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+/* .subscribe-input button {
+    padding: 10px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+} */
+
+.subscribe-input button img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom_section{
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-bottom span {
+    color: #d4af37;
+}
+
+.links a {
+    color: #d4af37;
+    margin: 0 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
